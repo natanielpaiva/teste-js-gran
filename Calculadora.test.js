@@ -9,7 +9,7 @@ describe('Testes da Calculadora', () => {
   });
 
   test('deve adicionar dois números corretamente', () => {
-    expect(calculadora.adicionar(1, 2)).toBe(4);
+    expect(calculadora.adicionar(1, 2)).toBe(3);
   });
 
   test('deve subtrair dois números corretamente', () => {
